@@ -1,0 +1,21 @@
+{
+  "name": "api-controle-livros",
+  "version": "1.0.0",
+  "description": "API para controles de livros",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Gavin Eduardo",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "mongoose": "^6.2.6"
+  }
+}
